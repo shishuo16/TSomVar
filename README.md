@@ -3,6 +3,10 @@
 ## Background
 Somatic variants act as key players during cancer occurrence and development, thus an accurate and robust method to identify them is the foundation in the cutting-edge cancer genome research. However, due to low accessibility and high individual-/sample-specificity of the somatic variants in tumor samples, the detection is, to date, still crammed with challenges, particularly when there are no paired normal samples as control. To solve this burning issue, we developed a tumor-only somatic and germline variant identification method (TSomVar), using the random forest algorithm established on sample-specific variant datasets derived from genotype imputation, reads-mapping level annotation and functional annotation.
 ## Installation
+### Install
+```
+git clone https://github.com/shishuo16/TSomVar.git
+```
 ### Requirements
 #### Application
 * [Annovar](https://annovar.openbioinformatics.org/en/latest/)
@@ -17,10 +21,8 @@ Somatic variants act as key players during cancer occurrence and development, th
 * [Plink format genetic map](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/)
 * [Annovar database: avsnp147, cadd, dbnsfp33a, eigen, icgc21, nci60, snp138NonFlagged](https://annovar.openbioinformatics.org/en/latest/)
 * [human.fa](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
-#### Install
-```
-git clone --recursive https://github.com/shishuo16/TSomVar.git
-```
+* [other database]()
+
 ```
 ### database process
 ### hg19.fa
@@ -38,7 +40,6 @@ Picard CreateSequenceDictionary REFERENCE=hg19.fa OUTPUT=hg19.fa ##generate inde
     /path/to/table_annovar.pl(annovar) \
     /path/to/beagle.18May20.d20.jar \
     /path/to/ReadLevel_Features_extraction.py(MosaicForecast) \
-    /path/to/k24.umap.wg.bw(MosaicForecast) \
     /path/to/gatk \
     /path/to/hg19.fa \
     ${prefix} \
