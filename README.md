@@ -5,8 +5,7 @@ Somatic variants act as key players during cancer occurrence and development, th
 ## Installation
 ### Install
 ```
-### Step1 Download ZIP
-### Step2 Uncompress ZIP
+git clone https://github.com/shishuo16/TSomVar.git
 ```
 ### Requirements
 #### Application
