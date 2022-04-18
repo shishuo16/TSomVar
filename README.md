@@ -5,7 +5,8 @@ Somatic variants act as key players during cancer occurrence and development, th
 ## Installation
 ### Install
 ```
-git clone https://github.com/shishuo16/TSomVar.git
+### Step1 Download Zip
+### Step2 Uncompress Zip
 ```
 ### Requirements
 #### Application
@@ -21,7 +22,6 @@ git clone https://github.com/shishuo16/TSomVar.git
 * [Plink format genetic map](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/)
 * [Annovar database: avsnp147, cadd, dbnsfp33a, eigen, icgc21, nci60, snp138NonFlagged](https://annovar.openbioinformatics.org/en/latest/)
 * [human.fa](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
-* [other database]()
 
 ```
 ### database process
@@ -40,6 +40,7 @@ Picard CreateSequenceDictionary REFERENCE=hg19.fa OUTPUT=hg19.fa ##generate inde
     /path/to/table_annovar.pl(annovar) \
     /path/to/beagle.18May20.d20.jar \
     /path/to/ReadLevel_Features_extraction.py(MosaicForecast) \
+    /path/to/k24.umap.wg.bw(MosaicForecast) \
     /path/to/gatk \
     /path/to/hg19.fa \
     ${prefix} \
