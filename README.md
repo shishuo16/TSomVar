@@ -9,7 +9,7 @@ git clone https://github.com/shishuo16/TSomVar.git
 ```
 ### Requirements
 #### Application
-* [Annovar](https://annovar.openbioinformatics.org/en/latest/)
+* [Annovar](https://annovar.openbioinformatics.org/en/latest/user-guide/download/)
 * [Beagle5.1](https://faculty.washington.edu/browning/beagle/b5_1.html)
 * [MosaicForecast](https://github.com/parklab/MosaicForecast)
 * [GATK Mutect2](https://gatk.broadinstitute.org/hc/en-us/articles/360037593851-Mutect2)
@@ -19,7 +19,7 @@ git clone https://github.com/shishuo16/TSomVar.git
 #### Database (Note: all database files should be stored at ${TSomVar_path}/database/)
 * [Haplotype reference panel of the 1000 Genomes Project](http://ftp.1000genomes.ebi.ac.uk/vol1/ftp/release/20130502)
 * [Plink format genetic map](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/)
-* [Annovar database: avsnp147, cadd, dbnsfp33a, eigen, icgc21, nci60, snp138NonFlagged](https://annovar.openbioinformatics.org/en/latest/)
+* [Annovar database: avsnp147, cadd, dbnsfp33a, eigen, icgc21, nci60, snp138NonFlagged](https://annovar.openbioinformatics.org/en/latest/user-guide/download/)
 * [human.fa](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
 * [other database](https://pan.baidu.com/s/107Lp6d4gKBOJQQJU_TYq5g?pwd=vavp#list/path=%2F)
 
