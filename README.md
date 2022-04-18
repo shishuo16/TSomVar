@@ -32,10 +32,11 @@ Picard CreateSequenceDictionary REFERENCE=hg19.fa OUTPUT=hg19.fa ##generate inde
     ${sample_id_in_bam} \
     ${TSomVar} \
     ${full_path_of_table_annovar.pl(annovar)} \
-    ${full_path_beagle.18May20.d20.jar} \
-    ${full_path_ReadLevel_Features_extraction.py(MosaicForecast)} \
-    ${full_path_gatk} \
-    ${path_to_hg19.fa} \
+    ${full_path_of_beagle.18May20.d20.jar} \
+    ${full_path_of_ReadLevel_Features_extraction.py(MosaicForecast)} \
+    ${full_path_of_k24.umap.wg.bw(MosaicForecast)} \
+    ${full_path_of_gatk} \
+    ${full_path_of_hg19.fa} \
     ${prefix} \
 ```
 ## Output
