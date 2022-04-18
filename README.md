@@ -22,6 +22,7 @@ Somatic variants act as key players during cancer occurrence and development, th
 * [Plink format genetic map](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/)
 * [Annovar database: avsnp147, cadd, dbnsfp33a, eigen, icgc21, nci60, snp138NonFlagged](https://annovar.openbioinformatics.org/en/latest/)
 * [human.fa](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
+* [other database](https://pan.baidu.com/s/107Lp6d4gKBOJQQJU_TYq5g?pwd=vavp#list/path=%2F)
 
 ```
 ### database process
@@ -40,7 +41,6 @@ Picard CreateSequenceDictionary REFERENCE=hg19.fa OUTPUT=hg19.fa ##generate inde
     /path/to/table_annovar.pl(annovar) \
     /path/to/beagle.18May20.d20.jar \
     /path/to/ReadLevel_Features_extraction.py(MosaicForecast) \
-    /path/to/k24.umap.wg.bw(MosaicForecast) \
     /path/to/gatk \
     /path/to/hg19.fa \
     ${prefix} \
