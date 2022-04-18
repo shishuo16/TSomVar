@@ -17,6 +17,10 @@ Somatic variants act as key players during cancer occurrence and development, th
 * [Plink format genetic map](http://bochet.gcc.biostat.washington.edu/beagle/genetic_maps/)
 * [Annovar database: avsnp147, cadd, dbnsfp33a, eigen, icgc21, nci60, snp138NonFlagged](https://annovar.openbioinformatics.org/en/latest/)
 * [human.fa](https://hgdownload.soe.ucsc.edu/goldenPath/hg19/bigZips/)
+#### Install
+```
+git clone --recursive https://github.com/shishuo16/TSomVar.git
+```
 ```
 ### database process
 ### hg19.fa
