@@ -34,7 +34,7 @@ Picard CreateSequenceDictionary REFERENCE=hg19.fa OUTPUT=hg19.fa ##generate inde
 ## Running
 ```
 ./TSomVar \
-    /path/to/input_Bam  \
+    /path/to/input_bam  \
     ${sample_id_in_bam} \
     /path/to/TSomVar \
     /path/to/table_annovar.pl(annovar) \
