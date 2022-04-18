@@ -28,15 +28,15 @@ Picard CreateSequenceDictionary REFERENCE=hg19.fa OUTPUT=hg19.fa ##generate inde
 ## Running
 ```
 ./TSomVar \
-    ${input_Bam}  \
+    /path/to/input_Bam  \
     ${sample_id_in_bam} \
-    ${TSomVar} \
-    ${full_path_of_table_annovar.pl(annovar)} \
-    ${full_path_of_beagle.18May20.d20.jar} \
-    ${full_path_of_ReadLevel_Features_extraction.py(MosaicForecast)} \
-    ${full_path_of_k24.umap.wg.bw(MosaicForecast)} \
-    ${full_path_of_gatk} \
-    ${full_path_of_hg19.fa} \
+    /path/to/TSomVar \
+    /path/to/table_annovar.pl(annovar) \
+    /path/to/beagle.18May20.d20.jar \
+    /path/to/ReadLevel_Features_extraction.py(MosaicForecast) \
+    /path/to/k24.umap.wg.bw(MosaicForecast) \
+    /path/to/gatk \
+    /path/to/hg19.fa \
     ${prefix} \
 ```
 ## Output
