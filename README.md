@@ -5,8 +5,8 @@ Somatic variants act as key players during cancer occurrence and development, th
 ## Installation
 ### Install
 ```
-### Step1 Download Zip
-### Step2 Uncompress Zip
+### Step1 Download ZIP
+### Step2 Uncompress ZIP
 ```
 ### Requirements
 #### Application
